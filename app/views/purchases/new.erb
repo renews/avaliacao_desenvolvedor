@@ -1,0 +1,7 @@
+<div class="form">
+  <%= form_tag 'new', multipart: true do %>
+    <%= file_field_tag 'file' %>
+    <%= submit_tag  'Processar Arquivo', data: { disable_with: 'Processando' }%>
+  <% end %>
+</div>
+<%= show_message %>

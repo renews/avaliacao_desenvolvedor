@@ -1,0 +1,60 @@
+// Place all the styles related to the Purchases controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  text-align: center;
+}
+.form {
+  width: 320px;
+  position: relative;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+input[type="submit"],
+input[type="submit"]:focus {
+  font-family: Arial, sans-serif;
+  height: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+  font-size: 14px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0 30px;
+  width: auto;
+  background: #FF9100;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  width:100%
+}
+input[type="submit"]:focus {
+  outline: none;
+}
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background: #FF7300;
+}
+input[type="submit"]:disabled {
+  background: #cccccc;
+}
+.message {
+  margin: 0 auto;
+  padding: 15px 30px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #FFF;
+  border-radius: 5px;
+  background: darkgreen;
+}
+
+input[type="file"] {
+  font-size: 13px;
+  width: 100%;
+}
